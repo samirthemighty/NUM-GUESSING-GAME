@@ -3,7 +3,7 @@ import random
 
 print('Lets play a guessing number game!')
 def guess_game():
-  number = str(random.randint(1,9999))
+  number = str(random.randint(1000,9999))
   guess = ''
   attempts = 0
   while guess != number :
